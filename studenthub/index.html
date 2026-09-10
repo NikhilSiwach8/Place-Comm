@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentHub - Academic, Career & Achievement Portal</title>
+    <link rel="icon" type="image/jpeg" href="/iimg-logo.jpg" />
+    <meta name="description" content="Official Academic, Placement & Career Vault for Indian Institute of Management Guwahati (IIMG) - A comprehensive platform for student profiles, verified credentials, project portfolios, internships, jobs, and institutional announcements." />
+    <meta property="og:title" content="StudentHub - Academic, Career & Achievement Portal" />
+    <meta property="og:description" content="Official Academic, Placement & Career Vault for Indian Institute of Management Guwahati (IIMG) - A comprehensive platform for student profiles, verified credentials, project portfolios, internships, jobs, and institutional announcements." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('studenthub_theme');
+          if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

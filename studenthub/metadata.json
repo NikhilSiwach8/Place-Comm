@@ -1,0 +1,6 @@
+{
+  "name": "StudentHub - Academic, Career & Achievement Portal",
+  "description": "Official Academic, Placement & Career Vault for Indian Institute of Management Guwahati (IIMG) - A comprehensive platform for student profiles, verified credentials, project portfolios, internships, jobs, and institutional announcements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
